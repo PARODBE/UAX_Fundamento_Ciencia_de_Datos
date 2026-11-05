@@ -1,0 +1,94 @@
+DILIST_ID,CompoundName,DILI,Routes_of_Administration,InChIKey,SMILES,CID,chembl_id,source_estructura,estado_estructura,lookup_name,MolWt,MolLogP,NumHDonors,NumHAcceptors,TPSA,NumRotatableBonds,NumRings,NumHeavyAtoms,FractionCSP3,LipinskiViolations
+29,aminohippurate,0,Intravenous,,,,,,ambiguo: varias InChIKey,AMINOHIPPURATE,,,,,,,,,,0
+182,cholestyramine,0,Oral,,,,,,sin coincidencia,CHOLESTYRAMINE,,,,,,,,,,0
+190,sucralfate,0,Oral,,,,,,sin coincidencia,SUCRALFATE,,,,,,,,,,0
+227,gemtuzumab ozogamicin,1,Intravenous,,,,,,sin coincidencia,GEMTUZUMAB OZOGAMICIN,,,,,,,,,,0
+262,ivermectin,1,Oral,,,,,,sin coincidencia,IVERMECTIN,,,,,,,,,,0
+283,nystatin,0,Oral,,,,,,ambiguo: varias InChIKey,NYSTATIN,,,,,,,,,,0
+319,pancrelipase,0,Oral,,,,,,sin coincidencia,PANCRELIPASE,,,,,,,,,,0
+344,hyaluronidase,0,Subcutaneous,,,,,,sin coincidencia,HYALURONIDASE,,,,,,,,,,0
+346,protamine sulfate,0,Intravenous,,,,,,sin coincidencia,PROTAMINE SULFATE,,,,,,,,,,0
+354,thyrotropin alfa,0,Intramuscular,,,,,,sin coincidencia,THYROTROPIN ALFA,,,,,,,,,,0
+367,Sodium polystyrene sulfonate,0,Oral,,,,,,sin coincidencia,SODIUM POLYSTYRENE SULFONATE,,,,,,,,,,0
+397,nitroprusside,0,Intravenous,,,,,,sin coincidencia,NITROPRUSSIDE,,,,,,,,,,0
+398,colestipol,0,Oral,,,,,,sin coincidencia,COLESTIPOL,,,,,,,,,,0
+419,pegademase bovine,0,Intramuscular,,,,,,sin coincidencia,PEGADEMASE BOVINE,,,,,,,,,,0
+424,enoxaparin,1,Subcutaneous,,,,,,sin coincidencia,ENOXAPARIN,,,,,,,,,,0
+427,dalteparin sodium,1,Subcutaneous,,,,,,sin coincidencia,DALTEPARIN SODIUM,,,,,,,,,,0
+428,ferumoxsil,0,Oral,,,,,,sin coincidencia,FERUMOXSIL,,,,,,,,,,0
+429,ferumoxides,0,Intravenous,,,,,,sin coincidencia,FERUMOXIDES,,,,,,,,,,0
+430,porfimer,0,Intravenous,,,,,,sin coincidencia,PORFIMER,,,,,,,,,,0
+443,polyethylene glycol 3350,0,Oral,,,,,,sin coincidencia,POLYETHYLENE GLYCOL 3350,,,,,,,,,,0
+468,sevelamer,0,Oral,,,,,,sin coincidencia,SEVELAMER,,,,,,,,,,0
+489,colesevelam,0,Oral,,,,,,sin coincidencia,COLESEVELAM,,,,,,,,,,0
+584,urokinase,0,Intravenous,,,,,,sin coincidencia,UROKINASE,,,,,,,,,,0
+608,colistimethate,0,Intravenous,,,,,,sin coincidencia,COLISTIMETHATE,,,,,,,,,,0
+609,benzylpenicilloyl polylysine,0,Subcutaneous,,,,,,sin coincidencia,BENZYLPENICILLOYL POLYLYSINE,,,,,,,,,,0
+615,polymyxin b sulfate,0,Intravenous,,,,,,sin coincidencia,POLYMYXIN B SULFATE,,,,,,,,,,0
+619,asparaginase,1,Intravenous,,,,,,sin coincidencia,ASPARAGINASE,,,,,,,,,,0
+620,botulinum toxin type a,0,Intramuscular,,,,,,sin coincidencia,BOTULINUM TOXIN TYPE A,,,,,,,,,,0
+624,"interferon alfa-2a, recombinant",1,Subcutaneous,,,,,,sin coincidencia,"INTERFERON ALFA-2A, RECOMBINANT",,,,,,,,,,0
+627,alteplase,0,Intravenous,,,,,,sin coincidencia,ALTEPLASE,,,,,,,,,,0
+631,sargramostim,0,Intravenous,,,,,,sin coincidencia,SARGRAMOSTIM,,,,,,,,,,0
+632,pegaspargase,1,Intravenous,,,,,,sin coincidencia,PEGASPARGASE,,,,,,,,,,0
+634,muromonab-cd3,0,Intravenous,,,,,,sin coincidencia,MUROMONAB-CD3,,,,,,,,,,0
+635,interferon beta-1b,1,Subcutaneous,,,,,,sin coincidencia,INTERFERON BETA-1B,,,,,,,,,,0
+636,abciximab,0,Intravenous,,,,,,sin coincidencia,ABCIXIMAB,,,,,,,,,,0
+637,interferon beta-1a,1,Intramuscular,,,,,,sin coincidencia,INTERFERON BETA-1A,,,,,,,,,,0
+640,interferon alfacon-1,1,Subcutaneous,,,,,,sin coincidencia,INTERFERON ALFACON-1,,,,,,,,,,0
+641,oprelvekin,0,Subcutaneous,,,,,,sin coincidencia,OPRELVEKIN,,,,,,,,,,0
+644,basiliximab,0,Intravenous,,,,,,sin coincidencia,BASILIXIMAB,,,,,,,,,,0
+646,palivizumab,0,Intramuscular,,,,,,sin coincidencia,PALIVIZUMAB,,,,,,,,,,0
+647,infliximab,1,Intravenous,,,,,,sin coincidencia,INFLIXIMAB,,,,,,,,,,0
+648,reteplase,0,Intravenous,,,,,,sin coincidencia,RETEPLASE,,,,,,,,,,0
+649,trastuzumab,1,Intravenous,,,,,,sin coincidencia,TRASTUZUMAB,,,,,,,,,,0
+650,etanercept,1,Subcutaneous,,,,,,sin coincidencia,ETANERCEPT,,,,,,,,,,0
+652,botulinum toxin type b,0,Intramuscular,,,,,,sin coincidencia,BOTULINUM TOXIN TYPE B,,,,,,,,,,0
+655,tenecteplase,0,Intravenous,,,,,,sin coincidencia,TENECTEPLASE,,,,,,,,,,0
+656,rasburicase,0,Intravenous,,,,,,sin coincidencia,RASBURICASE,,,,,,,,,,0
+657,alemtuzumab,0,Intravenous,,,,,,sin coincidencia,ALEMTUZUMAB,,,,,,,,,,0
+658,peginterferon alfa-2b,1,Subcutaneous,,,,,,sin coincidencia,PEGINTERFERON ALFA-2B,,,,,,,,,,0
+662,anakinra,1,Subcutaneous,,,,,,sin coincidencia,ANAKINRA,,,,,,,,,,0
+663,darbepoetin alfa,1,Intravenous,,,,,,sin coincidencia,DARBEPOETIN ALFA,,,,,,,,,,0
+665,omalizumab,0,Subcutaneous,,,,,,sin coincidencia,OMALIZUMAB,,,,,,,,,,0
+666,ibritumomab tiuxetan,0,Intravenous,,,,,,sin coincidencia,IBRITUMOMAB TIUXETAN,,,,,,,,,,0
+667,pegfilgrastim,0,Subcutaneous,,,,,,sin coincidencia,PEGFILGRASTIM,,,,,,,,,,0
+671,adalimumab,1,Subcutaneous,,,,,,sin coincidencia,ADALIMUMAB,,,,,,,,,,0
+672,cetuximab,0,Intravenous,,,,,,sin coincidencia,CETUXIMAB,,,,,,,,,,0
+673,bevacizumab,0,Intravenous,,,,,,sin coincidencia,BEVACIZUMAB,,,,,,,,,,0
+674,palifermin,0,Intravenous,,,,,,sin coincidencia,PALIFERMIN,,,,,,,,,,0
+675,natalizumab,1,Intravenous,,,,,,sin coincidencia,NATALIZUMAB,,,,,,,,,,0
+682,galsulfase,0,Intravenous,,,,,,sin coincidencia,GALSULFASE,,,,,,,,,,0
+683,abatacept,1,Intravenous,,,,,,sin coincidencia,ABATACEPT,,,,,,,,,,0
+684,alglucosidase alfa,0,Intravenous,,,,,,sin coincidencia,ALGLUCOSIDASE ALFA,,,,,,,,,,0
+686,panitumumab,0,Intravenous,,,,,,sin coincidencia,PANITUMUMAB,,,,,,,,,,0
+687,idursulfase,0,Intravenous,,,,,,sin coincidencia,IDURSULFASE,,,,,,,,,,0
+688,certolizumab pegol,0,Subcutaneous,,,,,,sin coincidencia,CERTOLIZUMAB PEGOL,,,,,,,,,,0
+689,eculizumab,0,Intravenous,,,,,,sin coincidencia,ECULIZUMAB,,,,,,,,,,0
+690,rilonacept,0,Subcutaneous,,,,,,sin coincidencia,RILONACEPT,,,,,,,,,,0
+691,ustekinumab,0,Subcutaneous,,,,,,sin coincidencia,USTEKINUMAB,,,,,,,,,,0
+692,romiplostim,0,Subcutaneous,,,,,,sin coincidencia,ROMIPLOSTIM,,,,,,,,,,0
+693,ofatumumab,0,Intravenous,,,,,,sin coincidencia,OFATUMUMAB,,,,,,,,,,0
+723,methylscopolamine bromide,0,Oral,,,,,,ambiguo: varias InChIKey,METHYLSCOPOLAMINE BROMIDE,,,,,,,,,,0
+848,pamabrom,0,Oral,,,,,,ambiguo: varias InChIKey,PAMABROM,,,,,,,,,,0
+891,Hetastarch,0,Intravenous,,,,,,sin coincidencia,HETASTARCH,,,,,,,,,,0
+892,imiglucerase,0,Intravenous,,,,,,sin coincidencia,IMIGLUCERASE,,,,,,,,,,0
+893,agalsidase beta,0,Intravenous,,,,,,sin coincidencia,AGALSIDASE BETA,,,,,,,,,,0
+895,canakinumab,1,Subcutaneous,,,,,,sin coincidencia,CANAKINUMAB,,,,,,,,,,0
+900,hyaluronidase recombinant human,0,Subcutaneous,,,,,,sin coincidencia,HYALURONIDASE RECOMBINANT HUMAN,,,,,,,,,,0
+901,Androgenic steroids*,1,,,,,,,sin coincidencia,ANDROGENIC STEROIDS*,,,,,,,,,,0
+905,Peginterferon,1,,,,,,,sin coincidencia,PEGINTERFERON,,,,,,,,,,0
+906,Sulfonamides*,1,oral,,,,,,sin coincidencia,SULFONAMIDES*,,,,,,,,,,0
+945,Pegaptanib,0,Intravitreal,,,,,,sin coincidencia,PEGAPTANIB,,,,,,,,,,0
+958,Antithymocyte Immunoglobulin,1,,,,,,,sin coincidencia,ANTITHYMOCYTE IMMUNOGLOBULIN,,,,,,,,,,0
+968,Clomacron,1,,,,,,,sin coincidencia,CLOMACRON,,,,,,,,,,0
+976,Diacetoxydiphenolisatin,1,,,,,,,sin coincidencia,DIACETOXYDIPHENOLISATIN,,,,,,,,,,0
+985,Gemtuzumab,1,,,,,,,sin coincidencia,GEMTUZUMAB,,,,,,,,,,0
+988,Interferon Unspecified,1,,,,,,,sin coincidencia,INTERFERON UNSPECIFIED,,,,,,,,,,0
+989,Interferon-Beta-1a,1,,,,,,,sin coincidencia,INTERFERON-BETA-1A,,,,,,,,,,0
+990,interferon-Beta-1b,1,,,,,,,sin coincidencia,INTERFERON-BETA-1B,,,,,,,,,,0
+991,Ioxaglate And Meglumine,1,Intravascular,,,,,,sin coincidencia,IOXAGLATE AND MEGLUMINE,,,,,,,,,,0
+998,Methylene Dioxymethamphetamine,1,,,,,,,sin coincidencia,METHYLENE DIOXYMETHAMPHETAMINE,,,,,,,,,,0
+1000,Oxyiminoalkanoic acid derivative,1,,,,,,,sin coincidencia,OXYIMINOALKANOIC ACID DERIVATIVE,,,,,,,,,,0
+1001,Peginterferon-Alfa-2a,1,,,,,,,sin coincidencia,PEGINTERFERON-ALFA-2A,,,,,,,,,,0
+1009,STREPTOKINASE,1,Intracoronary; Intravenous,,,,,,sin coincidencia,STREPTOKINASE,,,,,,,,,,0
