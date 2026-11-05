@@ -1,19 +1,18 @@
 # Datos del proyecto
 
-## Archivos principales
+## CSV utilizados
 
-- `DILIst_FDA.csv` y `dilist_original.csv`: archivo fuente de DILIst en CSV.
-- `dilist_normalizado.csv`: variables originales con la etiqueta renombrada como `DILI`.
-- `dilist_con_descriptores.csv`: conjunto completo, con las estructuras identificadas, sus identificadores y descriptores RDKit; conserva también los registros sin estructura resuelta.
-- `dilist_descriptores.csv`: compuestos con InChIKey única, sin etiquetas contradictorias y con una fila por estructura.
-- `dilist_train.csv` y `dilist_test.csv`: partición reproducible 80/20 (semilla 42), estratificada por cuantiles de MolLogP y clase DILI.
-- `dilist_sin_estructura.csv`: registros para los que no se encontró una estructura inequívoca.
-- `dilist_conflictos.csv`: compuestos con etiquetas DILI distintas para una misma InChIKey. En la preparación actual no se encontraron casos.
+- `DILIst_FDA.csv`: fuente original de DILIst en CSV (1.279 registros).
+- `estructuras_nombres.csv`: mapa único de nombres de DILIst a InChIKey y SMILES; incluye la fuente de la coincidencia y el estado de búsqueda para poder revisar nombres no resueltos.
+- `dilist_descriptores.csv`: compuestos con estructura inequívoca y descriptores calculados con RDKit.
+- `dilist_train.csv` y `dilist_test.csv`: particiones 80/20 con semilla 42, estratificadas por cuantiles de MolLogP y clase DILI.
 
-## Cálculo y trazabilidad
+La fase 2 del proyecto lee la fuente y el mapa de estructuras, calcula descriptores y vuelve a generar las tres tablas preparadas. Las fases 3 a 6 descargan las particiones desde este directorio; no hace falta subir archivos manualmente a Colab.
 
-Las estructuras se asociaron por nombre normalizado. Se usaron coincidencias de nombre preferido en ChEMBL y, para los nombres restantes, búsquedas en PubChem; se conservaron solo resultados únicos por InChIKey. Los archivos `chembl_prefname_structures.csv` y `pubchem_fallback_lookup.csv` documentan esas consultas. No se asignó estructura cuando la búsqueda fue ambigua o no encontró coincidencia.
+## Estructuras y descriptores
 
-Los descriptores se calcularon con RDKit a partir de SMILES: MolWt, MolLogP, donantes y aceptores de enlaces de hidrógeno, TPSA, enlaces rotables, anillos, átomos pesados y FractionCSP3. `LipinskiViolations` cuenta incumplimientos de los cuatro límites habituales (peso molecular >/= 500, LogP > 5, HBD > 5 y HBA > 10).
+Las asociaciones se hicieron con coincidencias de nombre preferido en ChEMBL y búsquedas de respaldo en PubChem. Solo se conservaron coincidencias únicas por InChIKey. El mapa contiene también los nombres ambiguos o sin coincidencia para documentar la cobertura. De los 1.279 registros de DILIst, 1.186 obtuvieron estructura; al deduplicar por InChIKey quedaron 1.182 compuestos para el análisis.
 
-La fuente contiene 1.279 registros. Se obtuvieron estructuras para 1.186 registros y, tras retirar estructuras repetidas por InChIKey, quedaron 1.182 compuestos para el análisis y la partición. Los registros sin una estructura inequívoca se mantienen en el archivo completo y en el archivo de auditoría, pero no entran en los análisis que requieren descriptores.
+RDKit calcula el catálogo de descriptores escalares disponible (217 en la versión usada para preparar estos archivos), no fingerprints. El EDA muestra cinco variables interpretables: peso molecular, LogP, donantes y aceptores de enlaces de hidrógeno, y TPSA. Para regresión lineal y logística se consideran descriptores numéricos más amplios, se excluyen variables que filtran el objetivo y se retiran predictores constantes o muy correlacionados usando solo entrenamiento. El clustering se limita a cinco propiedades fisicoquímicas interpretables.
+
+La partición de entrenamiento y prueba se realiza por cuantiles de MolLogP y, cuando el tamaño de los estratos lo permite, también por clase DILI. La etiqueta 1 corresponde a DILI positiva y 0 a DILI negativa.
