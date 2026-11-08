@@ -18,13 +18,4 @@ Los notebooks se presentan en el orden de trabajo del informe. La numeración de
    [![Abrir Fase 6 en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PARODBE/UAX_Fundamento_Ciencia_de_Datos/blob/main/Notebooks/Fase_6_Regresion_Logistica_DILI.ipynb)  
    Corresponde al capítulo 6. Clasifica la etiqueta DILI, interpreta odds ratios y evalúa las métricas en entrenamiento y prueba.
 
-## Correspondencia con los capítulos del informe
-
-- **Capítulo 3:** comprensión de los datos y análisis exploratorio (Fases 2 y 3).
-- **Capítulo 4:** análisis de conglomerados (Fase 4).
-- **Capítulo 5:** regresión lineal de MolLogP (Fase 5).
-- **Capítulo 6:** regresión logística de DILI (Fase 6).
-- **Capítulo 7:** discusión y limitaciones.
-- **Capítulo 8:** conclusiones.
-
 Los notebooks de análisis descargan los CSV de [Data](../Data/README.md), así que no es necesario subir archivos manualmente a Colab.
