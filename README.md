@@ -13,7 +13,7 @@ Proyecto de análisis de datos sobre lesión hepática inducida por fármacos (D
 
 ## Notebooks
 
-Los notebooks de organización y análisis exploratorio mantienen los nombres Fase 2 y Fase 3. Los cuadernos de conglomerados y regresión se numeran como capítulos 4, 5 y 6 para seguir el orden del informe. [Índice y accesos a Google Colab](Notebooks/README.md).
+Los notebooks siguen la numeración del informe: Fase 2 organización, Fase 3 análisis exploratorio, Fase 4 conglomerados, Fase 5 regresión lineal y Fase 6 regresión logística. [Índice y accesos a Google Colab](Notebooks/README.md).
 
 ## Datos
 
