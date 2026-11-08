@@ -18,5 +18,3 @@ Los notebooks siguen la numeración del informe: Fase 2 organización, Fase 3 an
 ## Datos
 
 Los CSV originales y preparados están en [Data](Data/README.md). Los notebooks de análisis descargan esos archivos desde este repositorio para que puedan ejecutarse en Google Colab sin cargar los datos manualmente.
-
-Repositorio: https://github.com/PARODBE/UAX_Fundamento_Ciencia_de_Datos
