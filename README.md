@@ -13,10 +13,10 @@ Proyecto de análisis de datos sobre lesión hepática inducida por fármacos (D
 
 ## Notebooks
 
-Los notebooks mantienen la numeración de fases de la asignatura, que no coincide con todos los capítulos del informe. Por ejemplo, el análisis de conglomerados corresponde a la Fase 6 del curso y al capítulo 4 del informe. [Índice y accesos a Google Colab](Notebooks/README.md).
+Los notebooks de organización y análisis exploratorio mantienen los nombres Fase 2 y Fase 3. Los cuadernos de conglomerados y regresión se numeran como capítulos 4, 5 y 6 para seguir el orden del informe. [Índice y accesos a Google Colab](Notebooks/README.md).
 
 ## Datos
 
-Los CSV originales y preparados están en [Data](Data/README.md). Los notebooks de las fases 3 a 6 descargan esos archivos desde este repositorio para que puedan ejecutarse en Google Colab sin cargar los datos manualmente.
+Los CSV originales y preparados están en [Data](Data/README.md). Los notebooks de análisis descargan esos archivos desde este repositorio para que puedan ejecutarse en Google Colab sin cargar los datos manualmente.
 
 Repositorio: https://github.com/PARODBE/UAX_Fundamento_Ciencia_de_Datos
